@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function Card() {
+export default function Card({ hogInfo }) {
   return (
-    <div>Card</div>
+    <div>
+        <h3>{hogInfo.name}</h3>
+    </div>
   )
 }
